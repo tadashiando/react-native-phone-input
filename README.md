@@ -1,6 +1,8 @@
 # React Native Phone Input
 
-Phone input box for React Native
+Phone input box for React Native.
+
+This fork allows you to add a placeholder AND a initial country code. When user focus the PhoneInput, the placeholder will automatically disapear.
 
 | ![2560-02-07 01_32_33](https://cloud.githubusercontent.com/assets/21040043/22661097/aa41852e-ecd6-11e6-84da-375cbe05020f.gif) | ![2560-02-08 00_04_18](https://cloud.githubusercontent.com/assets/21040043/22702110/3758ecc0-ed92-11e6-9d2e-421b76d4e2b5.gif) |
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -9,7 +11,7 @@ Phone input box for React Native
 ## Installation
 
 ```
-npm i react-native-phone-input --save
+npm install git+https://github.com/tadashiando/react-native-phone-input --save
 ```
 
 ## Basic Usage
